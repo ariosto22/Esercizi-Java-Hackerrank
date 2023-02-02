@@ -1,0 +1,20 @@
+https://www.hackerrank.com/challenges/java-reflection-attributes/problem?isFullScreen=true
+(Chiarimenti sulla classe Method; il submit test su java 8 non funzione)
+
+public class Solution {
+
+        public static void main(String[] args){
+            Class student = Student.class;
+            Method[] methods = student.getDeclaredMethods();
+
+            ArrayList<String> methodList = new ArrayList<>();
+            for(Method method : methods){
+                methodList.add(method.getName());
+            }
+            Collections.sort(methodList);
+            for(String name: methodList){
+                System.out.println(name);
+            }
+        }
+
+    }
