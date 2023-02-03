@@ -1,0 +1,7 @@
+https://www.hackerrank.com/challenges/java-vistor-pattern/problem?isFullScreen=true
+
+Ho provato a svolgere l'esercizio utilizzando IntelliJ, poiché il codice era destinato a diventavare troppo lungo.
+Manca una grossa fetta di codice, ho riconosciuto i miei limiti e non sono riuscito piu' ad andare oltre.
+
+Non ho usato il commit/push per inserire il progetto dentro la repository deliberatamente; al termine della risoluzione
+avrei intenzione di riportare il source code dentro l'editor di hackerrank.
